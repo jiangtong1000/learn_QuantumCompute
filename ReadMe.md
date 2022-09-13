@@ -14,10 +14,7 @@ This is the Notebook in the way of learning to program the quantum computing alg
 
   And the circuits for measuring the other elements are all contained within test1.py.
 
-- In `evolve_mix.py` I implement the quantum circuit for realizing the time evolution of **density matrix / mixed states**. For instance, we need the $\textrm{Tr}[(\frac{\partial \rho}{\partial \theta_i})^\dagger\frac{\partial \rho}{\partial \theta_j}], \forall i, j$. If $\frac{\partial \rho}{\partial \theta_i}=i B^\dagger -iB$, $\frac{\partial \rho}{\partial \theta_j}=i A^\dagger -iA$, then 
-  $$
-  \textrm{Tr}[(\frac{\partial \rho}{\partial \theta_i})^\dagger\frac{\partial \rho}{\partial \theta_j}]=2\textrm{Re}\textrm{Tr}[B^\dagger A]-2\textrm{Re}\textrm{Tr}[B A]
-  $$
+- In `evolve_mix.py` I implement the quantum circuit for realizing the time evolution of **density matrix / mixed states**. For instance, we need the $\textrm{Tr}[(\frac{\partial \rho}{\partial \theta_i})^\dagger\frac{\partial \rho}{\partial \theta_j}], \forall i, j$. If $\frac{\partial \rho}{\partial \theta_i}=i B^\dagger -iB$, $\frac{\partial \rho}{\partial \theta_j}=i A^\dagger -iA$, then $\textrm{Tr}[(\frac{\partial \rho}{\partial \theta_i})^\dagger\frac{\partial \rho}{\partial \theta_j}]=2\textrm{Re}\textrm{Tr}[B^\dagger A]-2\textrm{Re}\textrm{Tr}[B A]$
   The quantum circuit for the first part will be:
 
   ```
