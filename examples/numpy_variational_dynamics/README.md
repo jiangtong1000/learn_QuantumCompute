@@ -43,8 +43,9 @@ Project credit: **Tong Jiang / learn_QuantumCompute**. The 2026 NumPy rewrite an
 release preparation used AI assistance. The historical Qiskit implementations
 are [test1.py](../../test1.py) and [evolve_mix.py](../../evolve_mix.py).
 
-The [MIT license](LICENSE) covers only the files in this directory. It grants no
-new license to the historical scripts, notebooks, figures, or earlier versions
-elsewhere in the repository. NumPy is a separately licensed dependency.
+The [MIT license](LICENSE) covers the files in this directory. The original
+`test1.py` and `evolve_mix.py` also have an MIT grant, including the historical
+versions listed in [LICENSING.md](../../LICENSING.md). Other repository files
+are outside these grants. NumPy is a separately licensed dependency.
 When citing the example, identify its repository path and commit, and credit the
 scientific reference above. This citation request is separate from the MIT terms.

@@ -1,3 +1,7 @@
+# Copyright (c) 2022 Tong Jiang
+# SPDX-License-Identifier: MIT
+# See LICENSES/MIT.txt and LICENSING.md for terms and historical-version coverage.
+
 import numpy as np
 from qiskit import QuantumCircuit
 from qiskit.providers.aer import Aer

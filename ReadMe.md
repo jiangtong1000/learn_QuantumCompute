@@ -1,12 +1,19 @@
 # learn_QuantumCompute
 
+## Licensing and provenance
+
+`test1.py` and `evolve_mix.py` were independently written by Tong Jiang and are
+now available under the [MIT license](LICENSES/MIT.txt). This grant also covers
+the specific 2022 versions identified in [LICENSING.md](LICENSING.md).
+The 2026 NumPy example has its own MIT notice. See the licensing document for
+the exact file scope, scientific attribution, and preferred project credit.
+
 ## NumPy reference example (2026)
 
 [Run the new pure- and mixed-state variational dynamics example](examples/numpy_variational_dynamics/README.md).
 It uses NumPy for classical reference calculations and includes a short explanation,
-reproduction instructions, and numerical settings. The MIT license in that example's
-directory applies only to the new example and its accompanying documentation;
-it does not cover the historical files or their earlier versions below.
+reproduction instructions, and numerical settings. Its [MIT license](examples/numpy_variational_dynamics/LICENSE)
+covers that example directory and its accompanying documentation.
 
 ## Original Qiskit examples (2022)
 
