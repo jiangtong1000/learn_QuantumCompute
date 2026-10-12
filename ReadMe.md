@@ -1,5 +1,15 @@
 # learn_QuantumCompute
 
+## NumPy reference example (2026)
+
+[Run the new pure- and mixed-state variational dynamics example](examples/numpy_variational_dynamics/README.md).
+It uses NumPy for classical reference calculations and includes a short explanation,
+reproduction instructions, and numerical settings. The MIT license in that example's
+directory applies only to the new example and its accompanying documentation;
+it does not cover the historical files or their earlier versions below.
+
+## Original Qiskit examples (2022)
+
 This is the Notebook in the way of learning to program the quantum computing algorithms in Quautum dynamics and quantum chemistry.
 
 - In `test1.py` I implement the quantum circuit for the elements in the time evolution equation for **pure state**. For instance, if we want the element $A_{x,z}^R=\frac{\partial{\langle\psi|}}{\partial \theta_x}\frac{|\psi\rangle}{\partial \theta_z}$, the quantum circuit is as follows:
